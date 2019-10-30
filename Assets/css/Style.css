@@ -1,0 +1,132 @@
+ body{
+ 	font-family: OpenSans-Regular;
+/* 	width: 100%;
+ 	margin: auto;*/
+ 	overflow-x:none;
+ }
+
+ @font-face{
+font-family: NanumGothic-Bold;
+src:url('../fonts/Nanum_Gothic/NanumGothic-Bold.ttf');
+}
+ @font-face{
+font-family: NanumGothic-ExtraBold;
+src:url('../fonts/Nanum_Gothic/NanumGothic-ExtraBold.ttf');
+}
+
+@font-face{
+font-family: NanumGothic-Regular;
+src:url('../fonts/Nanum_Gothic/NanumGothic-Regular.ttf');
+ }
+
+@font-face{
+font-family: OpenSans-LightItalic;
+src:url('../fonts/open-sans/OpenSans-LightItalic.ttf');
+ }
+ @font-face{
+font-family: OpenSans-SemiBoldItalic;
+src:url('../fonts/open-sans/OpenSans-SemiBoldItalic.ttf');
+ }
+ @font-face{
+font-family: OpenSans-ExtraBoldItalic;
+src:url('../fonts/open-sans/OpenSans-ExtraBoldItalic.ttf');
+ }
+
+
+ .navleft{
+ 	padding: 5px;
+ 	color: blue;
+ 	font-family: NanumGothic-Bold;
+ 	color: #1500c352;
+
+ }
+
+ .navright{
+ 	padding: 5px;
+ 	color:blue;
+ 	text-align: right;
+ 	font-family: NanumGothic-Bold;
+ 	color: #1500c352;
+ }
+
+ .navtext{
+ 	font-family: NanumGothic-Regular;
+ 	color:#ff8566 !important;
+ }
+
+ .logo{
+ 	
+ 	width: 65px;
+ 	margin-top: -20px;
+ }
+.customnav{
+    background-color: #dddddd42;
+    border: 0px white;
+    padding: 9px 0;
+    margin-bottom: 0px;
+}
+
+.slideimg{
+	width: 100%;
+	height:70vh !important;
+}
+
+.about-section{
+	padding: 5%;
+
+}
+
+.about{
+	text-align: center;
+	font-family: NanumGothic-ExtraBold !important;
+
+}
+
+.aboutimg{
+	width:100%;
+		
+		border-radius: 4px;
+}
+.about-description{
+	font-family: OpenSans-SemiBoldItalic !important;
+	
+	margin-right: 3%;
+}
+
+.img-testimonial{
+
+	height:152px !important;
+	width:100%;
+}
+
+.testimonial-section{
+	background-color: #1500c352;
+	margin-bottom: 3%;
+}
+.testimonial{
+	text-align: center; 
+	font-family: OpenSans-LightItalic;
+	color:#ffffffad;
+}
+
+.testimonialhead{
+	margin-left:30px;
+	text-align:center !important;
+					
+}
+.testimonialheader{
+	font-family:NanumGothic-ExtraBold !important;
+						color:white; 
+						
+						text-align: center !important;
+}
+
+.testimonialname{
+	text-align:center;
+								font-family: OpenSans-ExtraBoldItalic
+}
+
+.footer-text{
+	text-align:center;
+	color: #ffffffad;
+}
